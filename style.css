@@ -1,0 +1,67 @@
+#navbar li{
+   position: sticky;
+    list-style: none;
+    display:flex;
+    padding-bottom:20px;
+    margin-left: 73em;
+}
+ a{
+    text-decoration: none;
+    font-size: larger;
+}
+.na:hover{
+    box-shadow: inset;
+    background: blue;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+
+}
+.im{
+    border-radius: 50%;
+}
+#navbar{
+   display: flex;
+   flex-direction: column;
+   background:linear-gradient(35deg,rgb(9, 213, 228),rgb(81, 71, 100),rgb(81,79,120));
+}
+#welcome-section{
+    background: linear-gradient(45deg,rgb(104, 111, 168),rgb(68, 64, 116),rgb(80, 11, 192));
+    text-align: center;
+    font-family:cursive;
+    padding-bottom: 5em;
+    padding-top: 5em;
+    font-size: 35px;
+}
+#second{
+    text-align: center;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas: 
+". . . . project  project1"
+    '. project1';
+   
+}
+.project{
+    border: 1px solid blue;
+    width: 300px;
+    height: auto;
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+    grid-area: project;
+}
+.project1{
+    grid-area: project1;
+    min-height: 300px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#h11{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
